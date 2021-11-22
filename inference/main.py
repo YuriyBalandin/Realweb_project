@@ -18,7 +18,7 @@ def get_preiction(text):
     result = model.predict(text)
 
     if result[0] == 0:
-        return 'negtive'
+        return 'negative'
     else:
         return 'positive'
 
